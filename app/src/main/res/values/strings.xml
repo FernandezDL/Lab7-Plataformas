@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Lab7</string>
+
+    <string name="Lab">Laboratorio 7</string>
+    <string name="signIn">¿Nuevo usuario? ¡Crea tu cuenta aquí!</string>
+    <string name="logIn">Iniciar sesión</string>
+    <string name="enterEmail">Ingresa tu correo</string>
+    
+    <string name="newAccount">Nueva cuenta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
