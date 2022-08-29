@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/text_home_goodMorning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/goodMorning"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+
+        android:layout_marginBottom="105dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_home_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/hello"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="150dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_home_goodMorning"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_home_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/email"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+
+        app:layout_constraintStart_toEndOf="@id/text_home_hello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_home_goodMorning"
+        />
+
+    <TextView
+        android:id="@+id/text_home_need"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/need"
+
+        app:layout_constraintTop_toBottomOf="@id/text_home_hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/bttn_home_updateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/updateProfile"
+        android:backgroundTint="@color/bttnColor"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_home_need"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
